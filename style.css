@@ -1,0 +1,67 @@
+/*set-base*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+
+/*modifiche nav*/
+
+
+.btn-dark {
+    background-color: #000 !important;
+}
+.bg-dark  {
+    background-color: #000!important;
+}
+
+.nav-link.active{
+    color: gray !important;
+}
+
+.nav-link.active:hover{
+color: #fff !important;
+}
+/*sotto-nav*/
+
+button.btn.btn-dark{
+    border-radius: 0 !important;
+    background-color: black !important;
+    border-color:white;
+    transition: white .15s
+}
+
+
+/*carosello 1,2,3*/
+.movie-row h2:first-of-type{
+    margin-top: 20px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.col-md-2 {
+    transition: 0.3s;
+}
+
+.col-md-2:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.movie-row img {
+    width: 100%;
+    position: relative;
+
+}
+
+.movie-row img:last-of-type.movie-shadow {
+    background-color: rgba(55, 52, 52, 0.193);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    
+}
